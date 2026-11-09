@@ -2,9 +2,9 @@ from pathlib import Path
 import numpy as np
 import torch
 
-from NASA_CMAPPS_RNN.parse_data import process_cmapss_data
-from NASA_CMAPPS_RNN.RNN import RNN
-from NASA_CMAPPS_RNN.evaluate import evaluate
+from cmapps_rnn.parse_data import process_cmapss_data
+from cmapps_rnn.RNN import RNN
+from cmapps_rnn.evaluate import evaluate
 
 MAX_RUL = 125
 CURRENT_DIR = Path(__file__).resolve().parent
