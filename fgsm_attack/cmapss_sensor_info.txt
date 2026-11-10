@@ -1,0 +1,5 @@
+CMAPSS Jet Engine Simulated Data
+https://data.nasa.gov/dataset/cmapss-jet-engine-simulated-data 
+
+Damage Propagation Modeling for Aircraft Engine Run-to-Failure Simulation 
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4711414&tag=1 

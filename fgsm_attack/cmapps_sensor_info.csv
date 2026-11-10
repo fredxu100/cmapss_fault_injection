@@ -1,0 +1,27 @@
+Col,Name / Variable,What it Simulates (Physical Meaning),Unit
+1,unit,Engine unit instance identifier,—
+2,cycle,Operational cycle (time step),Cycles
+3,setting_1,Flight altitude,Feet
+4,setting_2,Flight speed (Mach number),Mach
+5,setting_3,Throttle resolver angle / Trajectory,°R or Angle
+6,sensor_1 (T2),Total temperature at fan inlet,°R
+7,sensor_2 (T24),Total temperature at low-pressure compressor (LPC) outlet,°R
+8,sensor_3 (T30),Total temperature at high-pressure compressor (HPC) outlet,°R
+9,sensor_4 (T50),Total temperature at low-pressure turbine (LPT) outlet,°R
+10,sensor_5 (P2),Pressure at fan inlet,psia
+11,sensor_6 (P15),Total pressure in bypass-duct,psia
+12,sensor_7 (P30),Total pressure at HPC outlet,psia
+13,sensor_8 (Nf),Physical fan speed,rpm
+14,sensor_9 (Nc),Physical core speed,rpm
+15,sensor_10 (epr),Engine pressure ratio (P50/P2),—
+16,sensor_11 (Ps30),Static pressure at HPC outlet,psia
+17,sensor_12 (phi),Ratio of fuel flow to Ps30,pps/psi
+18,sensor_13 (NRf),Corrected fan speed,rpm
+19,sensor_14 (NRc),Corrected core speed,rpm
+20,sensor_15 (BPR),Bypass Ratio,—
+21,sensor_16 (farB),Burner fuel-air ratio,—
+22,sensor_17 (htBleed),Bleed Enthalpy,—
+23,sensor_18 (Nf_dmd),Demanded fan speed,rpm
+24,sensor_19 (PCNfR_dmd),Demanded corrected fan speed,rpm
+25,sensor_20 (W31),HPT coolant bleed,lbm/s
+26,sensor_21 (W32),LPT coolant bleed,lbm/s
