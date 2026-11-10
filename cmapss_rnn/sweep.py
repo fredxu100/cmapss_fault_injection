@@ -19,8 +19,8 @@ from pathlib import Path
 import numpy as np
 import torch
 
-from create_rnn import create_rnn
-from test_model import test_model
+from cmapss_rnn.create_rnn import create_rnn
+from cmapss_rnn.test_model import test_model
 
 CURRENT_DIR = Path(__file__).resolve().parent
 MODEL_DIR = CURRENT_DIR / 'models'
