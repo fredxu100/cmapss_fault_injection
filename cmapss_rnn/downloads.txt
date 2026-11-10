@@ -1,0 +1,21 @@
+DOWNLOADS
+----------------------------
+cd ~
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh -b -p ~/miniconda3
+source ~/miniconda3/bin/activate
+conda create -n rnn python=3.10 -y
+conda activate rnn
+pip install --upgrade pip
+pip install torch --index-url https://download.pytorch.org/whl/cpu
+pip install numpy pandas
+python -c "import torch, numpy, pandas; print(torch.__version__)"
+
+RUN THIS BEFORE LOG IN TO CHECK (?)
+------------------------------------
+source ~/miniconda3/bin/activate
+
+TO RUN SWEEP
+-----------------
+run this from cmapps_fault_injection folder
+    python -m dir.filename

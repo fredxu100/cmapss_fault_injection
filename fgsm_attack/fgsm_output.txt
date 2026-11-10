@@ -1,0 +1,23 @@
+FD001  mode=any  n=100   clean RMSE  15.15  bias  -1.02
+  eps=0.01   FGSM RMSE   60.54 (bias  -18.14)   BIM-20 RMSE   63.44 (bias  -18.09)
+  eps=0.05   FGSM RMSE   88.76 (bias  -33.49)   BIM-20 RMSE   97.51 (bias  -29.67)
+  eps=0.1    FGSM RMSE  104.55 (bias  -40.54)   BIM-20 RMSE  115.54 (bias  -33.72)
+  eps=0.2    FGSM RMSE  128.30 (bias  -49.01)   BIM-20 RMSE  141.89 (bias  -38.59)
+
+FD002  mode=any  n=259   clean RMSE  16.01  bias  -1.16
+  eps=0.01   FGSM RMSE   55.56 (bias  -12.62)   BIM-20 RMSE   57.93 (bias  -12.72)
+  eps=0.05   FGSM RMSE   95.64 (bias  -23.82)   BIM-20 RMSE  105.06 (bias  -21.14)
+  eps=0.1    FGSM RMSE  112.06 (bias  -31.01)   BIM-20 RMSE  124.77 (bias  -25.71)
+  eps=0.2    FGSM RMSE  134.54 (bias  -38.02)   BIM-20 RMSE  150.04 (bias  -27.77)
+
+FD003  mode=any  n=100   clean RMSE  16.53  bias  +1.82
+  eps=0.01   FGSM RMSE   54.44 (bias   -3.75)   BIM-20 RMSE   57.54 (bias   -3.05)
+  eps=0.05   FGSM RMSE   86.67 (bias  -18.77)   BIM-20 RMSE   98.72 (bias  -15.36)
+  eps=0.1    FGSM RMSE  103.82 (bias  -25.67)   BIM-20 RMSE  118.05 (bias  -17.79)
+  eps=0.2    FGSM RMSE  126.48 (bias  -31.21)   BIM-20 RMSE  143.65 (bias  -18.53)
+
+FD004  mode=any  n=248   clean RMSE  19.41  bias  +0.21
+  eps=0.01   FGSM RMSE   52.88 (bias   -5.48)   BIM-20 RMSE   55.79 (bias   -6.01)
+  eps=0.05   FGSM RMSE   96.92 (bias  -18.22)   BIM-20 RMSE  109.21 (bias  -17.04)
+  eps=0.1    FGSM RMSE  115.43 (bias  -27.23)   BIM-20 RMSE  129.46 (bias  -21.79)
+  eps=0.2    FGSM RMSE  137.96 (bias  -34.40)   BIM-20 RMSE  155.38 (bias  -22.29)

@@ -2,9 +2,9 @@ from pathlib import Path
 import numpy as np
 import torch
 
-from cmapps_rnn.parse_data import process_cmapss_data
-from cmapps_rnn.RNN import RNN
-from cmapps_rnn.evaluate import evaluate
+from cmapss_rnn.parse_data import process_cmapss_data
+from cmapss_rnn.RNN import RNN
+from cmapss_rnn.evaluate import evaluate
 
 MAX_RUL = 125
 CURRENT_DIR = Path(__file__).resolve().parent
@@ -35,8 +35,8 @@ def test_model(model_name):
     for i in range(1, 5):
         fd = f'FD00{i}'
 
-        test_file = CURRENT_DIR / 'cmapps_data' / f'test_{fd}.txt'
-        rul_file = CURRENT_DIR / 'cmapps_data' / f'RUL_{fd}.txt'
+        test_file = CURRENT_DIR / 'cmapss_data' / f'test_{fd}.txt'
+        rul_file = CURRENT_DIR / 'cmapss_data' / f'RUL_{fd}.txt'
 
         #loads input/target windows to test
         test_input, test_target = process_cmapss_data(test_file=test_file, rul_file=rul_file, is_train=False, seq_len = seq_len)
